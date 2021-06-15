@@ -1,0 +1,68 @@
+.content_home{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.compo_list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+    flex-wrap: wrap;
+}
+
+.car{
+    width: 250px;
+    height: 150px;
+    border: 1px solid gray;
+}
+
+.car:hover{
+    outline: 2px solid green;
+}
+
+.car:active{
+    outline: 2px solid #00aaff;
+}
+
+.block_car{
+    display: block;
+    
+}
+
+.img_car{
+    width: 250px;
+    align-items: center;
+    /* height: 160px; */
+}
+
+.content_detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 50%; */
+}
+
+.cadre_img{
+    border: 1px solid #a1a1a1;
+    padding: 55px;
+    margin-top: 40px;
+}
+
+.cadre_img img{
+    width: 400px;
+}
+
+.cmt{
+    margin-top: 35px;
+    width: 30%;
+}
+
+.btn_cmt{
+    margin-top: 15px;
+    float: right;
+}
